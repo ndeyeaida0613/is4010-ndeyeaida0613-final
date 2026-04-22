@@ -1,3 +1,5 @@
+import pytest
+from final import BudgetPlanner
 def test_budget_planner():
     """Test the BudgetPlanner class."""
     # Create a new budget for the month
