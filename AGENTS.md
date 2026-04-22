@@ -14,5 +14,5 @@ and figure out that AI is not all bad if use the right way it can be really help
 python3 -m venv venv
 source venv/bin/activate  # macOS/Linux; Windows: source venv/Scripts/activate
 pip install -r requirements.txt
-pytest week03/tests/ -v
+pytest final/tests/ -v
 ```
