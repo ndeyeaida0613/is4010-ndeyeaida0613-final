@@ -55,6 +55,3 @@ class TestBudgetPlanner:
         total_expenses = self.planner.calculate_total_expenses()
         balance = self.planner.total_income - total_expenses
         assert balance == -50.00
-
-if __name__ == "__main__":
-    raise SystemExit(pytest.main([__file__]))
